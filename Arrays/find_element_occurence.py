@@ -18,6 +18,8 @@ def element_occurence(arr,x,k,n):
         i = i + k
     if i == n :
         return True
+      
+# Check in last segment if n is not multiple of k.
 
     j = i - k
     while j < n:
